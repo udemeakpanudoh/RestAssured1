@@ -26,24 +26,17 @@ my-restassured-tests/
 └── src/
     └── test/
         └── java/
-            └── CocktailDBTests.java
+            └── Countries.java
+        └── resources/
+            └── schema.json
 			
 Run the Tests:
 Open a terminal, navigate to your project directory, and execute the following command:
 
 >> mvn test
 
-NON-FUNCTIONAL TEST
-Performance Testing:
-Test the response time of the API under various loads.
-Suggested Framework: Apache JMeter or Gatling.
-
-Security Testing:
-Test for common security vulnerabilities like SQL injection, XSS, and API authentication mechanisms.
-Suggested Framework: OWASP ZAP or Burp Suite.
-
 Assumptions Made
-The CocktailDB API is publicly accessible without authentication.
+The Countries API is publicly accessible without authentication.
 The responses follow the documented structure consistently.
 The environment is set up with Maven and Java installed.
-This setup and the provided tests allows one to test the CocktailDB API according to the provided requirements.
+This setup and the provided tests allows one to test the Countries API according to the provided requirements.
