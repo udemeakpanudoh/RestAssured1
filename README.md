@@ -26,7 +26,7 @@ my-restassured-tests/
 └── src/
     └── test/
         └── java/
-            └── Countries.java
+            └── RestCountriesTest.java
         └── resources/
             └── schema.json
 			
@@ -36,8 +36,8 @@ Open a terminal, navigate to your project directory, and execute the following c
 >> mvn test
 
 Assumptions Made
-The Countries API is publicly accessible without authentication.
+The RestCountriesTest API is publicly accessible without authentication.
 There is no captcha on the website.
 The responses follow the documented structure consistently.
 The environment is set up with Maven and Java installed.
-This setup and the provided tests allows one to test the Countries API according to the provided requirements.
+This setup and the provided tests allows one to test the RestCountriesTest API according to the provided requirements.
